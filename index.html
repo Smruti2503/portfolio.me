@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+
+  <!---Bootstrap css-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+    integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+
+  <!---Custom css-->
+  <link rel="stylesheet" href="style.css">
+
+  <!---Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+
+  <!--Font awesome -->
+  <script src="https://kit.fontawesome.com/5888afab31.js" crossorigin="anonymous"></script>
+
+  <!--typed.js cdn-->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+  <!--Animate on Scroll CSS-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+</head>
+
+
+<body>
+
+  <!---Header Section-->
+  <section id="header">
+
+    <!---Navigation Bar Section-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home <i class="fas fa-home"></i> </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About <i class="fas fa-address-card"></i> </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills <i class="fas fa-forward"></i> </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services <i class="fas fa-file"></i> </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mywork">My Work <i class="fas fa-briefcase"></i> </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact <i class="fas fa-address-book"></i> </a>
+            </li>
+
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+
+    <!---Header section-->
+    <div class="container mt-5">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-lg-8 col-12 d-flex flex-column justify-content-center align-items-center header-content">
+          <div class="img-container">
+            <img class="img-fluid" src="images/smruti-sourav-nanda.jpg" alt="SSN" srcset="">
+          </div>
+
+          <h2>HELLO! I AM A <span id="blink"></span> </h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Iusto, praesentium nesciunt. Quod, ratione voluptatem a
+            fugit at vero mollitia.
+          </p>
+
+          <div class="button-container text-center">
+            <a class="mr-1 mt-3" href="#">About Me <i class="fas fa-user ml-2"></i> </a>
+            <a class="ml-1 mt-3" href="#">Get in Touch <i class="fas fa-envelope ml-2"></i> </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </section>
+
+
+  <!---About Section-->
+  <section id="about">
+
+    <div class="container-fluid" data-aos="fade-down" data-aos-duration="1000">
+      
+      <div class="col-12 text-center text-uppercase about-heading mb-5">
+        <h2 class="mb-5">About <span class="mb-5">Me</span> </h2>
+      </div>
+      <div class="row d-flex justify-content-center align-items-center">
+
+        <div class="col-lg-5">
+          <div class="img-holder">
+            <img class="img-fluid" src="images/smruti-sourav-nanda.jpg" alt="" srcset="">
+          </div>
+        </div>
+        <div class="col-lg-6 mt-5 mt-lg-0">
+          <div class="about-text">
+            <h3>Hi, I am Smruti Sourav Nanda</h3>
+            <p class="my-3">- It's My Pleasure to Introduce About Myself.</p>
+            <p class="my-4">I am Smruti Sourav Nanda. I am studying BSc. ITM ( Information Technology and Management)
+              course in Ravenshaw University, Cuttack. I am a web developer and a UX/UI designer. I also
+              like programming too.
+            </p>
+            <div class="shortdesc">
+              <div class="contain d-flex flex-wrap">
+                <p class="first">Name:</p>
+                <p class="second">Smruti Sourav Nanda</p>
+
+              </div>
+              <div class="contain d-flex flex-wrap">
+                <p class="first">E-mail:</p>
+                <p class="second">smrutisourav07@gmail.com</p>
+
+              </div>
+              <div class="contain d-flex flex-wrap">
+                <p class="first">Birthday:</p>
+                <p class="second">March 25</p>
+
+              </div>
+              <div class="contain d-flex flex-wrap">
+                <p class="first">Study:</p>
+                <p class="second">Ravenshaw University</p>
+
+              </div>
+              <div class="contain d-flex flex-wrap">
+                <p class="first">Freelance:</p>
+                <p class="second">Available</p>
+
+              </div>
+            </div>
+
+            <div class="socialicons">
+              <a href="https://www.facebook.com/profile.php?id=100004369921877" target="_blank"> <i class="fab fa-facebook"></i> </a>
+              <a href="https://github.com/Smruti2503" target="_blank"> <i class="fab fa-github"></i> </a>
+              <a href="https://twitter.com/Smruti_07" target="_blank"> <i class="fab fa-twitter"></i> </a>
+              <a href="https://www.linkedin.com/in/smrutisouravnanda/" target="_blank"> <i class="fab fa-linkedin"></i> </a>
+              <a href="https://www.instagram.com/im_smruti_07/" target="_blank"> <i class="fab fa-instagram"></i> </a>
+            </div>
+
+
+            <div class="button-container d-flex flex-wrap">
+              <a class="mr-1" href="#"> Download CV <i class="fas fa-download ml-2"></i> </a>
+              <a class="ml-1" href="#"> Hire Me <i class="fas fa-file ml-2"></i> </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!---Skills Section-->
+  <section id="skills">
+    <div class="container">
+      <div class="col-12 text-center text-uppercase skills-heading mb-5">
+        <h2 class="mb-5">My <span class="mb-5">Skills</span> </h2>
+        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Voluptates delectus ipsa sit minima cupiditate quia quasi totam!
+          delectus ipsa sit minima cupiditate quia ipsa sit minima cupiditate.
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6  skill mt-3" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="skills">
+            <p>HTML</p>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 91%" aria-valuenow="91" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-lg-4 col-md-6  skill mt-3" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="skills">
+            <p>CSS</p>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 84%" aria-valuenow="84" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-lg-4 col-md-6  skill mt-3" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="skills">
+            <p>BOOTSTRAP</p>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-lg-4 col-md-6  skill mt-3" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="skills">
+            <p>SASS</p>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 82%" aria-valuenow="82" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-lg-4 col-md-6  skill mt-3" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="skills">
+            <p>PHP</p>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 61%" aria-valuenow="61" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!---Services Section-->
+  <section id="services">
+    <div class="container">
+      <div class="col-12 text-center text-uppercase services-heading mb-5">
+        <h2 class="mb-5">What I Do <span class="mb-5">Services</span> </h2>
+        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Voluptates delectus ipsa sit minima cupiditate quia quasi totam!
+          delectus ipsa sit minima cupiditate quia ipsa sit minima cupiditate.
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="service-container">
+            <div class="logo">
+              <i class="fas fa-drafting-compass"></i>
+
+            </div>
+            <h5>Web Design</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat maiores autem facilis dolore unde?</p>
+
+          </div>
+
+        </div>
+        <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="service-container">
+            <div class="logo">
+              <i class="fab fa-quinscape"></i>
+
+            </div>
+            <h5>UX/UI Design</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat maiores autem facilis dolore unde?</p>
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="service-container">
+            <div class="logo">
+              <i class="fab fa-wordpress"></i>
+
+            </div>
+            <h5>Wordpress</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat maiores autem facilis dolore unde?</p>
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="service-container">
+            <div class="logo">
+              <i class="fas fa-window-restore"></i>
+
+            </div>
+            <h5>Responsive Design</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat maiores autem facilis dolore unde?</p>
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="service-container">
+            <div class="logo">
+              <i class="fas fa-border-style"></i>
+
+            </div>
+            <h5>Creative Design</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat maiores autem facilis dolore unde?</p>
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-5" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="service-container">
+            <div class="logo">
+              <i class="fab fa-blogger"></i>
+
+            </div>
+            <h5>Blogging</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat maiores autem facilis dolore unde?</p>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!---Portfolio Section---->
+  <section id="mywork">
+
+    <div class="container">
+
+      <div class="col-12 text-center text-uppercase mywork-heading mb-5">
+        <h2 class="mb-5">My <span class="mb-5">Portfolio</span> </h2>
+        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Voluptates delectus ipsa sit minima cupiditate quia quasi totam!
+          delectus ipsa sit minima cupiditate quia ipsa sit minima cupiditate.
+        </p>
+      </div>
+
+
+      <div class="col-12">
+        <ul class="d-flex mb-5 flex-wrap">
+          <li class="list active" data-filter="All">All</li>
+          <li class="list" data-filter="Recent">Recent</li>
+          <li class="list" data-filter="Popular">Popular</li>
+          <li class="list" data-filter="Upcoming">Upcoming</li>
+        </ul>
+      </div>
+
+
+
+
+
+      <div class="row">
+
+        <div class="col-md-6 col-lg-4 mb-4 main Recent">
+          <div class="image">
+            <img class="img-fluid" src="images/work1.jpg" alt="" srcset="">
+            <div class="workdetails">
+              <h5>Creative Design</h5>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-md-6 col-lg-4 mb-4 main Recent">
+          <div class="image">
+            <img class="img-fluid" src="images/work2.jpg" alt="" srcset="">
+            <div class="workdetails">
+              <h5>Web Design</h5>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-md-6 col-lg-4 mb-4 main Popular">
+          <div class="image">
+            <img class="img-fluid" src="images/work3.jpg" alt="" srcset="">
+            <div class="workdetails">
+
+              <h5>UI Design</h5>
+            </div>
+
+
+          </div>
+        </div>
+
+
+        <div class="col-md-6 col-lg-4 mb-4 main Popular">
+          <div class="image">
+            <img class="img-fluid" src="images/work4.jpg" alt="" srcset="">
+            <div class="workdetails">
+              <h5>Wordpress</h5>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-md-6 col-lg-4 mb-4 main Upcoming">
+          <div class="image">
+            <img class="img-fluid" src="images/work5.jpg" alt="" srcset="">
+            <div class="workdetails">
+              <h5>Blogging</h5>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-md-6 col-lg-4 mb-4 main Upcoming">
+          <div class="image">
+            <img class="img-fluid" src="images/work6.jpg" alt="" srcset="">
+
+            <div class="workdetails">
+              <h5>Responsive Design</h5>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!--Testimonial Section-->
+  <section id="testimonial">
+    <div class="container">
+
+      <div class="col-12 text-center text-uppercase testimonial-heading mb-5">
+        <h2 class="mb-5">Clients <span class="mb-5">say</span> </h2>
+        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Voluptates delectus ipsa sit minima cupiditate quia quasi totam!
+          delectus ipsa sit minima cupiditate quia ipsa sit minima cupiditate.
+        </p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-12 mt-4">
+
+
+
+
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-10 col-lg-8 client text-center">
+                    <figure>
+                      <img class="img-fluid" src="images/arpan.jpg" alt="" srcset="">
+                    </figure>
+
+                    <h5>Arpan Mohanty</h5>
+                    <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                        class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Illum accusantium in fugit porro quasi tempora praesentium ullam!
+                      Debitis.</p>
+
+                  </div>
+                </div>
+
+              </div>
+
+
+              <div class="carousel-item">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-10 col-lg-8 client text-center">
+                    <figure>
+                      <img class="img-fluid" src="images/subhankar.jpg" alt="" srcset="">
+                    </figure>
+
+
+                    <h5>Subhankar Nayak</h5>
+                    <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                        class="fas fa-star"></i><i class="fas fa-star"></i></span>
+
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Illum accusantium in fugit porro quasi tempora praesentium ullam!
+                      Debitis.</p>
+                  </div>
+                </div>
+
+
+              </div>
+
+              <div class="carousel-item">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-10 col-lg-8 client text-center">
+                    <figure>
+                      <img class="img-fluid" src="images/asutosh.jpg" alt="" srcset="">
+                    </figure>
+
+                    <h5>Asutosh Das</h5>
+                    <span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                        class="fas fa-star"></i><i class="fas fa-star"></i></span>
+
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Illum accusantium in fugit porro quasi tempora praesentium ullam!
+                      Debitis.</p>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
+
+
+
+
+
+
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!---Contact Section-->
+  <section id="contact">
+    <div class="container">
+
+
+      <div class="col-12 text-center text-uppercase contact-heading mb-5">
+        <h2 class="mb-5">Get in <span class="mb-5">Touch</span> </h2>
+        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Voluptates delectus ipsa sit minima cupiditate quia quasi totam!
+          delectus ipsa sit minima cupiditate quia ipsa sit minima cupiditate.
+        </p>
+      </div>
+
+
+      <div class="row">
+
+        <div class="col-lg-5 mt-5">
+          <div class="address">
+            <h3>My Address Info</h3>
+            <p>I Am Available for Freelance Work. Connect with Me  Email: <span>smrutisourav07@gmail.com</span> </p>
+
+
+            <div class="commondiv d-flex flex-wrap align-items-center ">
+              <div class="icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+             <div class="text">
+               <h6>Location</h6>
+               <small>Ravenshaw University</small>
+             </div>
+            </div>
+
+            <div class="commondiv d-flex flex-wrap align-items-center ">
+              <div class="icon">
+                <i class="fas fa-envelope-open"></i>
+              </div>
+             <div class="text">
+               <h6>E-mail</h6>
+             <small>smrutisourav07@gmail.com</small>
+             </div>
+            </div>
+
+            <div class="commondiv d-flex flex-wrap align-items-center ">
+              <div class="icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+             <div class="text">
+               <h6>Location</h6>
+               <small>Ravenshaw University</small>
+             </div>
+            </div>
+
+          </div>
+
+
+        </div>
+        <div class="col-lg-7 mt-5">
+          <div class="contactform">
+            <h3>Contact Me</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Doloremque, soluta quos optio laboriosam corrupti sint? Eligendi, 
+              tempore mollitia.</p>
+
+              <form action="" method="post">
+
+                <div class="nameemail d-flex justify-content-between">
+                  <input type="text" name="cname" id="" placeholder="Your Name" required>
+
+                  <input type="email" name="cemail" id="" placeholder="E-mail Address" required>
+
+                </div>
+                <div class="subnumber d-flex justify-content-between">
+                  <input type="text" name="subject" id="" placeholder="Subject" required>
+
+                  <input type="text" name="number" id="" placeholder="Phone Number(Optional)">
+
+                </div>
+
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
+
+                <a href="#">Submit <i class="fas fa-paper-plane ml-2"></i> </a>
+              </form>
+
+          </div>
+
+        </div>
+
+        <div class="col-12 mt-5">
+          <div class="map">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3738.042493148041!2d85.89367841454478!3d20.46344781221259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a190d7a181999fd%3A0xe48e3475c7591d81!2sRavenshaw%20University%2C%20Cuttack!5e0!3m2!1sen!2sin!4v1601712145080!5m2!1sen!2sin" width="100%" height="500" frameborder="0"  allowfullscreen="true" aria-hidden="false" tabindex="0"></iframe>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!---Footer Section-->
+  <section id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <hr>
+          <small>Made with <i class="fas fa-heart"></i> By : <span>Smruti Sourav Nanda</span> </small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!---SCroll to Top-->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+  
+    <i class="fas fa-angle-double-up"></i>
+  
+  </button>
+
+
+
+
+<!---AOS JS-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!--Initialise AOS-->
+<script>
+  AOS.init();
+</script>
+
+
+  <!--Scroll to top JS-->
+  <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+
+
+
+
+  <script>
+    var typed = new Typed('#blink', {
+      strings: [
+        "Web Developer.",
+        "UX/UI Designer.",
+      ],
+
+      typeSpeed: 70,
+      backSpeed: 70,
+      loop: true,
+    });
+  </script>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('.list').click(function () {
+        const value = $(this).attr('data-filter');
+        if (value == 'All') {
+          $('.main').show('1000');
+        }
+
+        else {
+          $('.main').not('.' + value).hide('1000');
+          $('.main').filter('.' + value).show('1000');
+        }
+      })
+
+      //add active class on selected item
+
+      $('.list').click(function () {
+        $(this).addClass('active').siblings().removeClass('active');
+      })
+    }
+
+
+    )
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!---Bootstrap js-->
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js"
+    integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
