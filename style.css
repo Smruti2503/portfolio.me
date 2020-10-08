@@ -97,6 +97,7 @@ body {
   font-size: 1.2rem;
   text-align: center;
   margin: 1.2rem 0;
+  padding:0 0.2rem;
 }
 
 #header .header-content .button-container {
